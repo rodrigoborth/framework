@@ -1,0 +1,7 @@
+{
+  "require": {
+    "php": ">=5.5",
+    "phpmailer/phpmailer": "~5",
+    "doctrine/dbal": "v2.5.4"
+  }
+}
