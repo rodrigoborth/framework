@@ -11,10 +11,10 @@ $configuration = [
   "database" => [
     'driver' => 'pdo_mysql',
     'host' => 'localhost',
-    'user' => 'testes',
+    'user' => 'frameuser',
     'port' => 3306,
     'password' => 'abc@123',
-    'dbname' => 'ciadastorneiras',
+    'dbname' => 'framework',
     'charset' => 'utf8'
   ],
   'password' => [

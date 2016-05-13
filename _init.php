@@ -17,8 +17,6 @@ $pageName = strtolower(
 //define page index (used in pagination)
 $pageIndex = isset($_GET['page-index']) ? $_GET['page-index'] : 1;
 
-var_dump($pageIndex, $pageName);
-
 //define root dir
 $root = dirname(__FILE__);
 //define models dir

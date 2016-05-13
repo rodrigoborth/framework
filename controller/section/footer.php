@@ -3,6 +3,6 @@
  * Created by PhpStorm.
  * User: rodrigo
  * Date: 31/03/16
- * Time: 19:10
+ * Time: 19:31
  */
-require $modelPageDir."/home.php";
+require $modelSectionDir."/footer.php";
