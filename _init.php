@@ -5,29 +5,50 @@
  * Date: 07/03/16
  * Time: 19:10
  */
+header('Content-Type: text/html; charset=utf-8');
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-//define page name
+
+define('environment', 1); // 1=dev, 2=stage, 3=production
+//set page name
 $pageName = strtolower(
   isset($_GET['page-name'])
     ? $_GET['page-name']
     : "home"
 );
-//define page index (used in pagination)
+//set page index (used in pagination)
 $pageIndex = isset($_GET['page-index']) ? $_GET['page-index'] : 1;
 
-//define root dir
+//set root dir
 $root = dirname(__FILE__);
-//define models dir
+
+switch(environment){
+  case 1:
+    $htmlRoot = '/framework/';
+  break;
+
+  case 2:
+    $htmlRoot = '/stage/';
+  break;
+
+  case 3:
+    $htmlRoot = '/';
+  break;
+
+  default:
+    $htmlRoot = '/';
+  break;
+}
+//set models dir
 $modelDir = $root . "/model";
 $modelPageDir = $root . "/model/page";
 $modelSectionDir = $root . "/model/section";
-//define controllers dir
+//set controllers dir
 $controllerDir = $root . "/controller";
 $controllerPageDir = $root . "/controller/page";
 $controllerSectionDir = $root . "/controller/section";
-//define views dir
+//set views dir
 $viewDir = $root . "/view";
 $viewPageDir = $root . "/view/page";
 $viewSectionDir = $root . "/view/section";

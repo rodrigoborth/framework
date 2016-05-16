@@ -10,6 +10,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <?php //Charset?>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <?php //Meta tags?>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

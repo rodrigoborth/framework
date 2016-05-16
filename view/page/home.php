@@ -7,14 +7,52 @@
  */
 require $controllerPageDir."/home.php";
 ?>
-<body class="pg-home mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <?php
+<body class="pg-<?=$pageName?>">
+  <div class=" mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
+    <?php
     require $viewSectionDir."/header.php";
-  ?>
-  <main class="mdl-layout__content">
-    <div class="page-content"><!-- Your content goes here --></div>
-  </main>
-  <?php //
+    ?>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div class="mdl-grid">
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-cell--3-col mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand">
+              <h2 class="mdl-card__title-text">Update</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aenan convallis.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                View Updates
+              </a>
+            </div>
+          </div>
+          <div class="mdl-cell--3-col mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand">
+              <h2 class="mdl-card__title-text">Update</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aenan convallis.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                View Updates
+              </a>
+            </div>
+          </div>
+          <div class="mdl-layout-spacer"></div>
+
+        </div>
+
+
+      </div>
+    </main>
+    <?php //
     require $viewSectionDir."/footer.php";
-  ?>
+    ?>
+  </div>
 </body>
