@@ -17,6 +17,6 @@ require $viewSectionDir."/header.php";
 
 </main>
 <?php
-  //get footer of page
-  require $viewSectionDir."/footer.php";
+//get footer of page
+require $viewSectionDir."/footer.php";
 ?>
