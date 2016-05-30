@@ -5,15 +5,18 @@
  * Date: 31/03/16
  * Time: 19:10
  */
-require $controllerPageDir."/home.php";
+
+//Get model of page
+require $modelPageDir."/".$pageName.".php";
+//Get controller of page
+require $controllerPageDir."/".$pageName.".php";
+//Get header of page
+require $viewSectionDir."/header.php";
 ?>
-<body class="pg-<?=$pageName?>">
-  <?php
-    require $viewSectionDir."/header.php";
-  ?>
-  <main>
-  </main>
-  <?php
-    require $viewSectionDir."/footer.php";
-  ?>
-</body>
+<main>
+
+</main>
+<?php
+  //get footer of page
+  require $viewSectionDir."/footer.php";
+?>

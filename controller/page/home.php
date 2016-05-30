@@ -5,4 +5,3 @@
  * Date: 31/03/16
  * Time: 19:10
  */
-require $modelPageDir."/home.php";

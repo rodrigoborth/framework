@@ -21,13 +21,16 @@
   <?php //Project stylesheet ?>
   <link rel="stylesheet" href="assets/stylesheet/style.css">
 
-  <?php //Jquery ?>
-  <script src="assets/javascript/vendor/jquery/jquery-2.2.3.min.js"></script>
-
-  <?php //Materialize js ?>
-  <script src="assets/javascript/vendor/materialize/materialize.min.js"></script>
 </head>
+<body class="pg-<?=$pageName?>">
 <?php
   require $viewPageDir."/".$pageName.".php";
 ?>
+
+<?php //Jquery ?>
+<script src="assets/javascript/vendor/jquery/jquery-2.2.3.min.js"></script>
+
+<?php //Materialize js ?>
+<script src="assets/javascript/vendor/materialize/materialize.min.js"></script>
+<body>
 </html>
