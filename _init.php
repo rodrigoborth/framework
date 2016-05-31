@@ -10,6 +10,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+//Set environment
 define('environment', 1); // 1=dev, 2=stage, 3=production
 //set page name
 $pageName = strtolower(

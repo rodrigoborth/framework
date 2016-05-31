@@ -11,6 +11,7 @@ require $modelSectionDir."/header.php";
 require $controllerSectionDir."/header.php";
 ?>
 <header>
+  <div class="navbar-fixed">
     <nav class="red darken-4">
       <div class="nav-wrapper container">
         <a href="#" data-activates="mobile-side-bar" class="button-collapse right"><i class="material-icons">menu</i></a>
@@ -27,4 +28,5 @@ require $controllerSectionDir."/header.php";
         </ul>
       </div>
     </nav>
+  </div>
 </header>

@@ -6,4 +6,5 @@ $(function () {
   $(".button-collapse").sideNav({
     edge: 'right'
   });
+  $('.slider').slider();
 });
