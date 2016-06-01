@@ -110,12 +110,13 @@ require $viewSectionDir."/header.php";
     <div class="container">
       <div class="col s12">
         <ul class="tabs">
-          <li class="tab col s3"><a class="active" href="#test1">Tab 1</a></li>
-          <li class="tab col s3"><a href="#test2">Tab 2</a></li>
-          <li class="tab col s3"><a href="#test3">Tab 3</a></li>
-          <li class="tab col s3"><a href="#test4">Tab 4</a></li>
+          <li class="tab col s3"><a class="active" href="#test1">Card</a></li>
+          <li class="tab col s3"><a href="#test2">Dynamic Iframe</a></li>
+          <li class="tab col s3"><a href="#test3">Collection</a></li>
+          <li class="tab col s3"><a href="#test4">Accordion</a></li>
         </ul>
       </div>
+
       <div id="test1" class="col s12">
         <div class="card-panel grey lighten-5 z-depth-1">
           <div class="row valign-wrapper">
@@ -130,11 +131,13 @@ require $viewSectionDir."/header.php";
           </div>
         </div>
       </div>
+
       <div id="test2" class="col s12">
         <div class="video-container">
           <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
+
       <div id="test3" class="col s12">
         <ul class="collection">
           <li class="collection-item avatar">
@@ -171,7 +174,23 @@ require $viewSectionDir."/header.php";
           </li>
         </ul>
       </div>
-      <div id="test4" class="col s12">Test 4</div>
+
+      <div id="test4" class="col s12">
+        <ul class="collapsible popout" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+          </li>
+          <li>
+            <div class="collapsible-header active"><i class="material-icons">place</i>Second</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </main>
