@@ -27,3 +27,5 @@ $configuration = [
     'sender' => 'no-reply@example.com'
   ]
 ];
+
+var_dump($configuration);
