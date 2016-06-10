@@ -1,0 +1,15 @@
+body {
+  > header {
+    padding-left: 240px;
+  }
+  > main {
+    padding-left: 240px;
+  }
+  > footer {
+    padding-left: 240px;
+  }
+}
+
+.no-padding-top {
+  padding-top: 0!important;
+}

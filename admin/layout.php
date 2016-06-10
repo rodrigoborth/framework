@@ -19,7 +19,7 @@
     <?php //Materialize css ?>
     <link rel="stylesheet" href="<?=$htmlRoot?>assets/stylesheet/vendor/materialize/materialize.min.css">
     <?php //Project stylesheet ?>
-    <link rel="stylesheet" href="<?=$htmlRoot?>assets/stylesheet/style.css">
+    <link rel="stylesheet" href="<?=$htmlRoot?>admin/assets/stylesheet/style.css">
   </head>
   <body class="pg-<?=$pageName?>">
     <?php

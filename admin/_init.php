@@ -20,7 +20,6 @@ $pageName = strtolower(
 );
 //set page index (used in pagination)
 $pageIndex = isset($_GET['page-index']) ? $_GET['page-index'] : 1;
-
 //set root dir
 $root = dirname(dirname(__FILE__));
 $adminRoot = dirname(__FILE__);
@@ -42,10 +41,6 @@ switch(environment){
     $htmlRoot = '/';
   break;
 }
-//set models dir
-$modelDir = $adminRoot . "/model";
-$modelPageDir = $adminRoot . "/model/page";
-$modelSectionDir = $adminRoot . "/model/section";
 //set controllers dir
 $controllerDir = $adminRoot . "/controller";
 $controllerPageDir = $adminRoot . "/controller/page";
@@ -57,9 +52,6 @@ $viewSectionDir = $adminRoot . "/view/section";
 
 //require configs
 require $root . "/_conf.php";
-
-//require dbal
-require $root . "/vendor/autoload.php";
 
 //require layout
 require $adminRoot . "/layout.php";

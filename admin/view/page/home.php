@@ -6,106 +6,32 @@
  * Time: 19:10
  */
 
-//Get model of page
-require $modelPageDir."/".$pageName.".php";
 //Get controller of page
 require $controllerPageDir."/".$pageName.".php";
 //Get header of page
 require $viewSectionDir."/header.php";
 ?>
 <main>
-  <div class="row">
-    <div class="slider">
-      <ul class="slides">
-        <li>
-          <img src="http://lorempixel.com/1000/300/nature/1"> <!-- random image -->
-          <div class="caption center-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+  <div>
+    <nav class="row black">
+      <div class="nav-wrapper">
+        <div class="col s10">
+          <a href="#" class="breadcrumb">Home</a>
+        </div>
+        <div class="col s2">
+          <div class="switch right">
+            <label class="white-text">
+              Off
+              <input type="checkbox">
+              <span class="lever"></span>
+              On
+            </label>
           </div>
-        </li>
-        <li>
-          <img src="http://lorempixel.com/1000/300/nature/2"> <!-- random image -->
-          <div class="caption left-align">
-            <h3>Left Aligned Caption</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-        <li>
-          <img src="http://lorempixel.com/1000/300/nature/3"> <!-- random image -->
-          <div class="caption right-align">
-            <h3>Right Aligned Caption</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-        <li>
-          <img src="http://lorempixel.com/1000/300/nature/4"> <!-- random image -->
-          <div class="caption center-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-      </ul>
-    </div>
+        </div>
+      </div>
+    </nav>
   </div>
-  <div class="row grey lighten-4">
-    <div class="container">
-      <?php //Card 1 ?>
-      <div class="col s12 m4">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="<?=$htmlRoot?>assets/images/sample/sample1.jpg">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-          </div>
-          <div class="card-action">
-            <a href="#" class="red-text text-darken-4">This is a link</a>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-          </div>
-        </div>
-      </div>
-      <?php //Card 2 ?>
-      <div class="col s12 m4">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="<?=$htmlRoot?>assets/images/sample/sample2.jpg">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-          </div>
-          <div class="card-action">
-            <a href="#" class="red-text text-darken-4">This is a link</a>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-          </div>
-        </div>
-      </div>
-      <?php //Card 3 ?>
-      <div class="col s12 m4">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="<?=$htmlRoot?>assets/images/sample/sample1.jpg">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-          </div>
-          <div class="card-action">
-            <a href="#" class="red-text text-darken-4">This is a link</a>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
   <div class="row">
     <div class="container">
       <div class="col s12">

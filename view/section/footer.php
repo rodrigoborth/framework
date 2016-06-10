@@ -6,7 +6,6 @@
  * Time: 19:31
  */
 //Get model of footer
-require $modelSectionDir."/footer.php";
 //Get controller of footer
 require $controllerSectionDir."/footer.php";
 ?>

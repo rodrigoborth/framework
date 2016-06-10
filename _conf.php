@@ -28,4 +28,9 @@ $configuration = [
   ]
 ];
 
-var_dump($configuration);
+//require dbal
+require $root . "/vendor/autoload.php";
+
+//create db connection
+$config = new \Doctrine\DBAL\Configuration();
+$conn = \Doctrine\DBAL\DriverManager::getConnection($configuration['database'], $config);

@@ -6,6 +6,8 @@ Options +FollowSymLinks
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # Admin rule
+  RewriteRule ^admin$ admin/
   # General rule
   RewriteRule ^/?$ _init.php?page-name=home [NC]
   RewriteRule ^([a-z-]+)/?$ _init.php?page-name=$1 [NC]

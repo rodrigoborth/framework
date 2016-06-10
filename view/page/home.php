@@ -7,7 +7,6 @@
  */
 
 //Get model of page
-require $modelPageDir."/".$pageName.".php";
 //Get controller of page
 require $controllerPageDir."/".$pageName.".php";
 //Get header of page

@@ -41,10 +41,6 @@ switch(environment){
     $htmlRoot = '/';
   break;
 }
-//set models dir
-$modelDir = $root . "/model";
-$modelPageDir = $root . "/model/page";
-$modelSectionDir = $root . "/model/section";
 //set controllers dir
 $controllerDir = $root . "/controller";
 $controllerPageDir = $root . "/controller/page";
@@ -56,9 +52,6 @@ $viewSectionDir = $root . "/view/section";
 
 //require configs
 require $root . "/_conf.php";
-
-//require dbal
-require $root . "/vendor/autoload.php";
 
 //require layout
 require $root . "/layout.php";
