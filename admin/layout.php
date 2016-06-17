@@ -16,8 +16,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php //Material Icons and Fonts?>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <?php //Materialize css ?>
-    <link rel="stylesheet" href="<?=$htmlRoot?>assets/stylesheet/vendor/materialize/materialize.min.css">
     <?php //Project stylesheet ?>
     <link rel="stylesheet" href="<?=$htmlRoot?>admin/assets/stylesheet/style.css">
   </head>

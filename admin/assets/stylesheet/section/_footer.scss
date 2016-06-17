@@ -2,6 +2,10 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  .sg-main-footer {
+    @extend .no-padding-top;
+    @extend .grey, .darken-3;
+  }
 }
 
 main {

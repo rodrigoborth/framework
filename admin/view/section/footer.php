@@ -8,7 +8,7 @@
 //Get controller of footer
 require $controllerSectionDir."/footer.php";
 ?>
-<footer class="page-footer red darken-4 no-padding-top">
+<footer class="page-footer sg-main-footer">
   <div class="footer-copyright">
     <div class="container">
       © 2014 Copyright Text
