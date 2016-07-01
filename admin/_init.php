@@ -10,8 +10,6 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-//Set environment
-define('environment', 1); // 1=dev, 2=stage, 3=production
 //set page name
 $pageName = strtolower(
   isset($_GET['page-name'])
@@ -24,23 +22,6 @@ $pageIndex = isset($_GET['page-index']) ? $_GET['page-index'] : 1;
 $root = dirname(dirname(__FILE__));
 $adminRoot = dirname(__FILE__);
 
-switch(environment){
-  case 1:
-    $htmlRoot = '/framework/';
-  break;
-
-  case 2:
-    $htmlRoot = '/stage/';
-  break;
-
-  case 3:
-    $htmlRoot = '/';
-  break;
-
-  default:
-    $htmlRoot = '/';
-  break;
-}
 //set controllers dir
 $controllerDir = $adminRoot . "/controller";
 $controllerPageDir = $adminRoot . "/controller/page";

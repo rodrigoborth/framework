@@ -5,11 +5,14 @@ Options -Indexes
 Options +FollowSymLinks
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  DirectoryIndex _init.php
 
-  # Admin rule
-  RewriteRule ^admin$ admin/
+  RewriteBase /
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
   # General rule
-  RewriteRule ^/?$ _init.php?page-name=home [NC]
+  RewriteRule ^/?$ _init.php?page-name=home [NC,L,QSA]
   RewriteRule ^([a-z-]+)/?$ _init.php?page-name=$1 [NC]
   RewriteRule ^([a-z-]+)/([0-9]+)/?$ _init.php?page-name=$1&page-index=$2 [NC]
 </IfModule>

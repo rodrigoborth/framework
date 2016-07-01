@@ -17,7 +17,7 @@
     <?php //Material Icons and Fonts?>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <?php //Project stylesheet ?>
-    <link rel="stylesheet" href="<?=$htmlRoot?>admin/assets/stylesheet/style.css">
+    <link rel="stylesheet" href="/admin/assets/stylesheet/style.css">
   </head>
   <body class="pg-<?=$pageName?>">
     <?php
@@ -25,10 +25,10 @@
     ?>
 
     <?php //Jquery ?>
-    <script src="<?=$htmlRoot?>assets/javascript/vendor/jquery/jquery-2.2.3.min.js"></script>
+    <script src="/assets/javascript/vendor/jquery/jquery-2.2.3.min.js"></script>
     <?php //Materialize js ?>
-    <script src="<?=$htmlRoot?>assets/javascript/vendor/materialize/materialize.min.js"></script>
+    <script src="/assets/javascript/vendor/materialize/materialize.min.js"></script>
     <?php //Materialize js ?>
-    <script src="<?=$htmlRoot?>admin/assets/javascript/global/initialize.js"></script>
+    <script src="/admin/assets/javascript/global/initialize.js"></script>
   <body>
 </html>

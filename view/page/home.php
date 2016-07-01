@@ -53,7 +53,7 @@ require $viewSectionDir."/header.php";
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="<?=$htmlRoot?>assets/images/sample/sample1.jpg">
+            <img class="activator" src="/assets/images/sample/sample1.jpg">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -71,7 +71,7 @@ require $viewSectionDir."/header.php";
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="<?=$htmlRoot?>assets/images/sample/sample2.jpg">
+            <img class="activator" src="/assets/images/sample/sample2.jpg">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -89,7 +89,7 @@ require $viewSectionDir."/header.php";
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="<?=$htmlRoot?>assets/images/sample/sample1.jpg">
+            <img class="activator" src="/assets/images/sample/sample1.jpg">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -120,7 +120,7 @@ require $viewSectionDir."/header.php";
         <div class="card-panel grey lighten-5 z-depth-1">
           <div class="row valign-wrapper">
             <div class="col s2">
-              <img src="<?=$htmlRoot?>assets/images/sample/sample4.jpg" alt="" class="circle responsive-img">
+              <img src="/assets/images/sample/sample4.jpg" alt="" class="circle responsive-img">
             </div>
             <div class="col s10">
               <span class="black-text">
@@ -140,7 +140,7 @@ require $viewSectionDir."/header.php";
       <div id="test3" class="col s12">
         <ul class="collection">
           <li class="collection-item avatar">
-            <img src="<?=$htmlRoot?>assets/images/sample/sample4.jpg" alt="" class="circle">
+            <img src="/assets/images/sample/sample4.jpg" alt="" class="circle">
             <span class="title">Title</span>
             <p>First Line <br>
               Second Line
