@@ -1,8 +1,51 @@
 .sg-main-header {
+  //Header
   .sg-header-nav {
     @extend .white;
   }
-  .sg-header-title {
-    @extend .black-text;
+  .admin-button-collapse {
+    color: $text1;
+  }
+
+  //Side bar
+  .sg-side-bar {
+    .sg-logo-h1 {
+      margin: 10px 0;
+      text-indent: 15px;
+    }
+    background: $background1;
+    .sg-side-bar-user {
+      padding: 25px 10px;
+      background: $background2;
+      line-height: 1;
+      @extend .border-bottom-3px;
+      p {
+        margin: 5px 0;
+      }
+      p:first-of-type {
+        font-weight: bold;
+        margin-top: 30px;
+      }
+      img {
+        @extend .border-4px;
+      }
+    }
+    li {
+      &.active, &.active:hover {
+        background: $background3!important;
+      }
+      &:hover {
+        background: $background4!important;;
+      }
+      a {
+        @extend .white-text;
+      }
+    }
+    .sg-side-bar-sub {
+      background: $background2;
+      li.active {
+        background: $background4!important;
+      }
+    }
   }
 }

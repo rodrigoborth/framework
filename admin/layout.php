@@ -21,7 +21,7 @@
   </head>
   <body class="pg-<?=$pageName?>">
     <?php
-      require $viewPageDir."/".$pageName.".php";
+      include $viewPageDir."/".$pageName.".php";
     ?>
 
     <?php //Jquery ?>

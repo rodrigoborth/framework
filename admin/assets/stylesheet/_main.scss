@@ -2,10 +2,12 @@
 @import "../../../assets/stylesheet/vendor/materialize/materialize";
 
 //Import global styles
+@import "global/variables";
 @import "global/global";
 
 //Import pages style
 @import "page/home";
+@import "page/novo-produto";
 
 //Import section styles
 @import "section/header";

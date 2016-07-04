@@ -12,16 +12,6 @@ require $controllerPageDir."/".$pageName.".php";
 require $viewSectionDir."/header.php";
 ?>
 <main>
-  <div>
-    <nav class="row sg-breadcrumb">
-      <div class="nav-wrapper">
-        <div class="col s10">
-          <a href="#" class="breadcrumb">Home</a>
-        </div>
-      </div>
-    </nav>
-  </div>
-
   <div class="row">
     <div class="container">
 

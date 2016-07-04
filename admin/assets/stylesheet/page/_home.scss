@@ -1,5 +1,8 @@
 body.pg-home {
   .sg-breadcrumb {
-    @extend .grey, .darken-3;
+    @extend .green, .lighten-5;
+    a {
+      @extend .green-text, .text-darken-4;
+    }
   }
 }
