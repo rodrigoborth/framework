@@ -6,4 +6,6 @@ $(function () {
   $(".admin-button-collapse").sideNav({
     edge: 'left',
   });
+
+  $('select').material_select();
 });
