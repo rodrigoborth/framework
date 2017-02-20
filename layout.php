@@ -10,6 +10,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <base href="/framework/">
     <?php //Charset?>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <?php //Meta tags?>

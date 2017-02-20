@@ -7,7 +7,7 @@ Options +FollowSymLinks
   RewriteEngine On
   DirectoryIndex _init.php
 
-  RewriteBase /
+  RewriteBase /framework/
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
 

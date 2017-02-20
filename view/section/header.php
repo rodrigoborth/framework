@@ -14,16 +14,16 @@ require $controllerSectionDir."/header.php";
     <nav class="red darken-4">
       <div class="nav-wrapper container">
         <a href="#" data-activates="mobile-side-bar" class="button-collapse right"><i class="material-icons">menu</i></a>
-        <a href="#" class="brand-logo left">Logo</a>
+        <a href="" class="brand-logo left">CRS</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Components</a></li>
-          <li><a href="#">JavaScript</a></li>
+          <li class="active"><a href="">Home</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Contato</a></li>
         </ul>
         <ul class="side-nav" id="mobile-side-bar">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Components</a></li>
-          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Contato</a></li>
         </ul>
       </div>
     </nav>
